@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+  background-color: #263138;
+  color: #FF5755;
+  font-family: 'Roboto Slab', serif;
+}
+
+#designedBy a {
+  transition: 0.5s;
+  color: white;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+#designedBy a:hover {
+  transition: 0.5s;
+  font-weight: 300;
+}
+
+#designedBy a:active {
+  transition: 0.3s;
+  color: #FF5755;
+}
+
+#giphy a {
+  transition: 0.5s;
+  color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+#giphy a:hover {
+  transition: 0.5s;
+  font-weight: 300;
+}
+
+#giphy a:active {
+  transition: 0.3s;
+  color: #FF5755;
+}
+
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 7em;
+  padding-top: 50px;
+  margin: 0;
+  font-weight: 700;
+}
+
+h4 {
+  color: #DBC297;
+  margin: 0 auto;
+  padding: 0px 0 40px 0;
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+#form {
+  max-width: 744px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#container {
+  clear: both;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#userInput {
+  float: left;
+}
+
+#submitButton {
+  transition: 0.8s;
+  float: left;
+  margin-left: 50px;
+  width:250px;
+  height: 225px;
+  font-size: 2em;
+  border: 15px solid #FF5755;
+  font-weight: bold;
+  outline: none;
+  background-color: white;
+}
+
+#submitButton:hover {
+  transition: 0.5s;
+  color: #263138;
+}
+
+#submitButton:active {
+  transition: 0.3s;
+  background-color: #263138;
+  color: white;
+}
+
+input {
+  font-size: 2em;
+  font-weight: 100;
+  padding: 20px;
+  margin: 0 0 50px 0;
+  outline: none;
+}
+
+input#height, input#width {
+  text-align: center;
+  width: 150px;
+}
+
+input#width {
+  margin-right: 50px;
+}
+
+input#searchTerm {
+  text-align: center;
+  width: 400px;
+  text-transform:uppercase;
+}
+
+#gif {
+  max-width: 940;
+  margin: 0 auto;
+  min-height: 250px;
+}
+
+img {
+  padding-bottom: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: #DBC297;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
