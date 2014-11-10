@@ -7,4 +7,4 @@ We were given 24 hours to create an app using any of the programming languages a
 
 I created a GIF placeholder website, inspired by sites like placehold.it, placekitten.com and fillmurray.com where you can generate various sized placeholder images.
 
-[Live Demo](http://gifplaceholders.bitballoon.com/)
+[Live Demo](www.gillingh.am/GifPlaceholders/)
